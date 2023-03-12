@@ -23,7 +23,6 @@ body {
     width: fit-content;
     height: fit-content;
     text-align: center;
-    padding: 30px 25px;
     margin: 0;
     border: solid;
     border-radius: 5px;
@@ -174,8 +173,8 @@ a:hover {
     flex-direction: column;
     position: absolute;
     background-color: rgb(40, 40, 40);
-    top: 5.5%;
-    left: 85.7%;
+    top: 6vh;
+    left: 83vw;
     padding: 5px;
     border: 2px solid;
     border-radius: 10px;
