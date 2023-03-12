@@ -39,7 +39,7 @@ body {
 .text { /* Для левого блока (блок блога) */
     width: 100%;
     height: 100%;
-    padding: 20px;
+    padding: 0 20px 20px 20px;
     text-align: left;
     border: solid;
     border-radius: 40px;
@@ -50,7 +50,7 @@ body {
 .text2 { /* Для правого блока (блок примеров) */
     width: 68%;
     height: 100%;
-    padding: 20px;
+    padding: 0 20px 20px 20px;
     text-align: left;
     border: solid;
     border-radius: 40px;
@@ -58,7 +58,14 @@ body {
     font-size: 21px;
 }
 
-.text3 { /* Для добавления пометок и тп. */
+.text3 { /* Для пометок */
+    margin: 0px;
+    font-size: 15px;
+    font-weight: normal;
+    color: green;
+}
+
+.text4 { /* Для p.s */
     margin: 0px;
     font-size: 15px;
     font-weight: normal;
@@ -69,6 +76,7 @@ body {
     margin: 0 0 15px 0;
     text-align: center;
     font-size: 26px;
+    margin: 20px;
 }
 
 .divide {
@@ -86,7 +94,7 @@ bold {
 }
 
 
-/* panel*/ 
+/* panel */ 
 
 
 .panelContainer {
