@@ -144,13 +144,15 @@ bold {
     font-size: 25px;
 }
 
-.panelText {
-    display: flex;
-}
-
 .settingsIcon {
     display: flex;
     font-size: 30px;
+}
+
+.goback {
+    position: absolute;
+    top: 2vh;
+    left: 1vw;
 }
 
 
