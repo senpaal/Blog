@@ -24,6 +24,16 @@ select.addEventListener("change", (e) => {
     document.documentElement.style.setProperty('--second-color', value.split(" ")[1]); // Надо установить значение переменной --theme
 });
 
+const closebtn = document.getElementById("closeBtn"); // Надо найти элемент с id="closeBtn" и вернуть его
+
+closebtn.addEventListener("click", (e) => {
+    // Надо найти элемент с id="panelSettings" и вернуть его
+    // И сделать его невидимым
+    // Чтобы делать элементы невидимыми надо добавить класс "hidden"
+    document.getElementById("panelSettings").classList.add("hidden");
+    hidden = true;
+});
+
 async function main() {
     const theme = localStorage.getItem("theme"); // Надо получить значение из localStorage
     if(theme) {

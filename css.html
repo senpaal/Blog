@@ -12,10 +12,10 @@
   </head>
   <body>
     <div class="panelContainer">
-      <div>
-        <a href="/" class="goback">
+      <div class="goback">
+        <button onclick="window.location.href = '/'" class="goback">
           <i class="fa-solid fa-arrow-left"></i>
-        </a>
+        </button>
       </div>
       <div class="panelContainerFirst">
         <h1 class="panelContentFirst">
@@ -34,44 +34,49 @@
         </h1>
       </div>
     </div>
-    <h1 class="ex1">Блог моего учения css)</h1>
-    <div class="divide">
-      <div class="text2">
-        
+    <div class="container">
+      <div class="navigation">
+        <h1 class="text5">Навигация по датам</h1>
       </div>
-      <div class="text">
-        <h1 class="content">11 марта 2023 года</h1>
-        <h1 class="text4">(В изучении языков много с чем мне помогла <a href="https://alica.me" target="_blank">Алиса (AnimeDev)</a>, спасибо большое ей за всё ♥️)</h1>
-        Я начинаю изучать css и js. Я уже научился ставить фон, изменять цвета,
-        перемещать текст, вставлять ссылки и много другое. Сайт, где я изучаю
-        css, вы можете найти, нажав на верхней панели <bold>"CSS"</bold>, сайт,
-        где я изучаю js <bold>"JavaScript"</bold>. <br>
-        Этот блог нужен для того, чтобы можно было посмотреть на то, как я
-        развивался по мере учения.<br>Сейчас я приступаю к изучению ссылок. <br>
-        <h1 class="text3"> Добавлено: <br> Я сделал настройку фона для сайта. Теперь у менять 4 разных фона.</h1>
-        <h1 class="content">12 марта 2023 года</h1>
-        Я исправил пару ошибок на сайте, теперь всё более или менее стабильно. 
-        Ещё я создал свой домен. Теперь можно заходить на мой сайт с любого места. <br>
-        Домен: <a href="https://senpaal.me/" target="_blank">senpaal.me</a>
-        <h1 class="content">13 марта 2023 года</h1>
-        Я сделал оформление для начальной страницы: <a href="/">Home</a>. Также обновил страницу: <a href="aboutme.html">About me</a>.
-        Теперь там есть хоть что-то, а не просто белый фон, как раньше) Сейчас я занят доработкой оформления сайта, я сейчас не думаю об изучениии языков дальше.
-        Я думаю о том, как бы доделать оформление на всех трёх сайтах, чтобы спать спокойно.
-        <br>
+      <div class="divide">
+        <div class="text">
+          <h1 class="content">11 марта 2023 года</h1>
+          <h1 class="text4">(В изучении языков много с чем мне помогла <a href="https://alica.me" target="_blank">Алиса (AnimeDev)</a>, спасибо большое ей за всё ♥️)</h1>
+          Я начинаю изучать css и js. Я уже научился ставить фон, изменять цвета,
+          перемещать текст, вставлять ссылки и много другое. Сайт, где я изучаю
+          css, вы можете найти, нажав на верхней панели <bold>"CSS"</bold>, сайт,
+          где я изучаю js <bold>"JavaScript"</bold>. <br>
+          Этот блог нужен для того, чтобы можно было посмотреть на то, как я
+          развивался по мере учения.<br>Сейчас я приступаю к изучению ссылок. <br>
+          <h1 class="text3"> Добавлено: <br> Я сделал настройку фона для сайта. Теперь у менять 4 разных фона.</h1>
+          <h1 class="content">12 марта 2023 года</h1>
+          Я исправил пару ошибок на сайте, теперь всё более или менее стабильно. 
+          Ещё я создал свой домен. Теперь можно заходить на мой сайт с любого места. <br>
+          Домен: <a href="https://senpaal.me/" target="_blank">senpaal.me</a>
+          <h1 class="content">13 марта 2023 года</h1>
+          Я сделал оформление для начальной страницы: <a href="/">Home</a>. Также обновил страницу: <a href="aboutme.html">About me</a>.
+          Теперь там есть хоть что-то, а не просто белый фон, как раньше) Сейчас я занят доработкой оформления сайта, я сейчас не думаю об изучениии языков дальше.
+          Я думаю о том, как бы доделать оформление на всех трёх сайтах, чтобы спать спокойно.
+          <h1 class="text3">Добавлено: <br> Полностью изменил стелистику сайта. Добавил навигацию по сайту, и фон для панельки сверху. Добавил кнопку выхода на главный сайт.</h1>
+          <br>
+        </div>
       </div>
     </div>
 
     <!-- Панель с настройками -->
 
     <div id="panelSettings" class="panelSettings hidden">
-      <h1>Настройки</h1>
-      <select id="select" class="select" name="color">
-        <!-- Тут у нас варианты -->
-        <option value="purple red">Фиолетовый красный</option>
-        <option value="blue cyan">Синий голубой</option>
-        <option value="red orange">Красный оранжевый</option>
-        <option value="rgb(40,40,40) rgb(40,40,40)">Темновато серый</option>
-      </select>
+      <div class="panelSettingsInside">
+        <h1>Настройки</h1>
+        <select id="select" class="select" name="color">
+          <!-- Тут у нас варианты -->
+          <option value="purple red">Фиолетовый красный</option>
+          <option value="blue cyan">Синий голубой</option>
+          <option value="red orange">Красный оранжевый</option>
+          <option value="rgb(40,40,40) rgb(40,40,40)">Темновато серый</option>
+        </select>
+        <button class="apply" id="closeBtn">Применить</button>
+      </div>
     </div>
   </body>
 </html>
