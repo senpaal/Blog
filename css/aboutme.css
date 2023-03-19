@@ -14,7 +14,7 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-start;
     background: rgb(36,36,36);
     width: 100vw;
     height: fit-content;
@@ -27,13 +27,23 @@ a {
     color: white;
 }
 
-.title {
+.titleMe {
+    margin-left: 300px;
     color: transparent;
     background-clip: text;
     background-image: linear-gradient(to right, orange, rgb(132, 0, 255));
     text-decoration: none;
     font-weight: bold;
 }
+
+.panelHome {
+    margin-left: 350px;
+}
+
+.panelWorks {
+    margin-left: 80px;
+}
+
 
 .text {
     display: flex;
