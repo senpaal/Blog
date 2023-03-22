@@ -21,7 +21,15 @@ header {
     column-gap: 1rem;
 }
 
-a {
-    font-size: 1.5rem;
-    color: white;
+a:link, a:visited {
+    text-decoration: none;
+    color: green;
+    scale: 2;
+}
+
+a:hover {
+    text-decoration: none;
+    color: green;
+    transition: 0.2s;
+    scale: 2.3;
 }
