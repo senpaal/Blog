@@ -36,9 +36,7 @@ hd {
 }
 
 .title {
-    color: transparent;
-    background-clip: text;
-    background-image: linear-gradient(to right, orange, rgb(132, 0, 255));
+    color: rgb(140, 0, 255);
     text-decoration: none;
     font-weight: bold;
 }
@@ -172,9 +170,9 @@ p {
 
 button {
     border-radius: 6px;
-    border-color: rgb(140, 0, 255);
+    border-color: gray;
     border-width: 100%;
-    background-image: linear-gradient(to right bottom, rgb(140, 0, 255), orange);
+    background-color: rgb(140, 0, 255);
     color: white;
     font-size: 1.5rem;
     padding: 0.5rem 2rem;

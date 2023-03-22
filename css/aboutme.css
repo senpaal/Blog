@@ -29,9 +29,7 @@ a {
 
 .titleMe {
     margin-left: 300px;
-    color: transparent;
-    background-clip: text;
-    background-image: linear-gradient(to right, orange, rgb(132, 0, 255));
+    color: rgb(132, 0, 255);
     text-decoration: none;
     font-weight: bold;
 }
