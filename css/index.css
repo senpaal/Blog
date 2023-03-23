@@ -36,7 +36,11 @@ hd {
 }
 
 .title {
-    color: rgb(140, 0, 255);
+    cursor: default;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(to right, orange, rgb(132, 0, 255));
     text-decoration: none;
     font-weight: bold;
 }
@@ -75,6 +79,7 @@ hd {
 }
 
 .grid-item-1 {
+    cursor: default;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -93,6 +98,7 @@ hd {
 }
 
 .grid-item-2 {
+    cursor: default;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -111,6 +117,7 @@ hd {
 }
 
 .grid-item-3 {
+    cursor: default;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -129,6 +136,7 @@ hd {
 }
 
 .grid-item-4 {
+    cursor: default;
     display: flex;
     flex-direction: column;
     justify-content: center;
