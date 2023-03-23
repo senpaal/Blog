@@ -29,7 +29,10 @@ a {
 
 .titleMe {
     margin-left: 300px;
-    color: rgb(132, 0, 255);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(to right, orange, rgb(132, 0, 255));
     text-decoration: none;
     font-weight: bold;
 }
