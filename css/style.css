@@ -153,6 +153,7 @@ bold {
 }
 
 .panelContainerFirst {
+    cursor: default;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
