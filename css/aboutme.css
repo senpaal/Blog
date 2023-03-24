@@ -28,7 +28,7 @@ a {
 }
 
 .animDs {
-    margin-left: 4px;
+    margin-left: 20px;
     font-size: 20px;
     border: 1px solid white;
     border-radius: 800px;
@@ -44,7 +44,7 @@ a {
 
 
 .animVK {
-    margin-left: 4px;
+    margin-left: 8px;
     font-size: 20px;
     border: 1px solid white;
     border-radius: 30px;
@@ -111,9 +111,8 @@ h1 {
     justify-content: center;
     margin: 150px 100px 0 100px;
     padding: 50px 0 300px 0;
-    border: 1px solid transparent;
     border-radius: 25px;
-    background-image: linear-gradient(to left top, darkviolet,purple);
+    background-image: linear-gradient(to left, darkviolet,purple, darkviolet);
 }
 
 .skills {
@@ -139,7 +138,6 @@ h1 {
     justify-content: space-evenly;
     margin: 50px 30px 0 0;
     background-color: black;
-    border: 1px solid black;
     border-radius: 30px;
     padding: 50px 34px 50px 34px;
 }
@@ -151,7 +149,6 @@ h1 {
     justify-content: center;
     margin: 50px 0 0 30px;
     background-color: black;
-    border: 1px solid black;
     border-radius: 30px;
     padding: 50px 15px 50px 15px;
 }
