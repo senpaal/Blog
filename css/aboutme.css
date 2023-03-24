@@ -110,7 +110,7 @@ h1 {
     display: flex;
     justify-content: center;
     margin: 150px 70px 0 70px;
-    padding: 50px 0 10px 0;
+    padding: 50px 0 20px 0;
     border: 1px solid transparent;
     border-radius: 40px;
     background-image: linear-gradient(to left top, darkviolet,purple);
@@ -119,13 +119,59 @@ h1 {
 .skills {
     display: flex;
     justify-content: center;
-    margin-top: 10px;
     font-size: 30px;
     font-weight: bold;
 }
 
-.firstPanel {
+.panel {
     display: flex;
     justify-content: center;
-    margin: 300px 0 0 0;
+    flex-direction: row;
+}
+
+.secondPanel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0 0 30px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 50px 15px 50px 15px;
+}
+
+.firstPanel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 50px 30px 0 0;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 50px 34px 50px 34px;
+}
+
+.iconFP {
+    margin: 0 0 40px 0;
+    font-size: 30px;
+}
+
+.textPanel {
+    font-weight: bold;
+}
+
+.textPanel1 {
+    color: gray;
+    margin-top: 20px;
+}
+
+.textPanel2 {
+    color: gray;
+}
+
+.textPanel3 {
+    margin-top: 40px;
+    color: cyan;
 }
