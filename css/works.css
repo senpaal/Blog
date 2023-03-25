@@ -23,13 +23,17 @@ header {
 
 a:link, a:visited {
     text-decoration: none;
-    color: green;
-    scale: 2;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(to right bottom, yellow, green);
+    scale: 1;
 }
 
 a:hover {
-    text-decoration: none;
-    color: green;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
     transition: 0.2s;
-    scale: 2.3;
+    scale: 1.3;
 }
