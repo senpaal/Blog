@@ -86,9 +86,8 @@ h1 {
 
 .text {
     margin: 1px 0;
-    display: flex;
-    justify-content: center;
-    padding: 0;
+    text-align: center;
+
 }
 
 .title {
@@ -149,6 +148,7 @@ h1 {
     background-color: black;
     border-radius: 30px;
     padding: 50px 15px 50px 15px;
+    gap: 20px;
 }
 
 .iconFP {
@@ -156,13 +156,9 @@ h1 {
     font-size: 30px;
 }
 
-.textPanel {
-    font-weight: bold;
-}
-
 .textPanel1 {
     color: gray;
-    margin-top: 20px;
+    text-align: center;
 }
 
 .textPanel2 {
