@@ -13,7 +13,7 @@ body {
 .panel {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
     width: 100vw;
     height: fit-content;
@@ -23,26 +23,31 @@ body {
 
 a:link, a:visited {
     text-decoration: none;
-    color: cyan;
+    color: white;
     transition: 0.3s;
-    scale: 1;
 }
 
 a:hover {
-    color: lightblue;
+    color: gray;
     /* -webkit-background-clip: text;
     background-clip: text;
     background-image: linear-gradient(to bottom, darkviolet, yellow); */
     transition: 0.3s;
-    scale: 1.3;
 }
 
 .titleMe {
     font-size: 30px;
+    margin-left: 400px;
 }
 
 .home {
     font-size: 25px;
+    margin-left: 700px;
+}
+
+.aboutme {
+    font-size: 25px;
+    margin-left: 50px;
 }
 
 .content {
@@ -95,6 +100,12 @@ a:hover {
     margin-bottom: 50px;
 }
 
-.site__text a {
-    content: "";
+.site__text a:link,  .site__text a:visited {
+    color: #4759c2;
+    transition: 0.3s;
+}
+
+.site__text a:hover {
+    color: white;
+    transition: 0.3s;
 }

@@ -21,6 +21,23 @@ header {
     column-gap: 1rem;
 }
 
+button {
+    margin: 20px 0 50px 0;
+    font-size: 25px;
+    border-radius: 6px;
+    border-color: transparent;
+    border-width: 100%;
+    background-image: linear-gradient(to left, darkviolet, rgb(140, 0, 255), darkviolet);
+    color: white;
+    padding: 0.5rem 2rem;
+    transition: all 0.3s;
+}
+
+button:hover {
+    scale: 1.1;
+    box-shadow: 0 0 20px 3px rgb(140, 0, 255);
+}
+
 a:link, a:visited{
     text-decoration: none;
     color: white;
@@ -92,6 +109,7 @@ h1 {
 .text {
     margin: 1px 0;
     text-align: center;
+    font-size: 19px;
 
 }
 
@@ -100,7 +118,7 @@ h1 {
     justify-content: center;
     margin: 20px 0;
     padding: 0;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: bold;
 }
 
@@ -130,7 +148,7 @@ h1 {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    margin: 0 0 -30vh 0;
+    margin: 0 0 -40vh 0;
 }
 
 .firstPanel {
@@ -141,7 +159,14 @@ h1 {
     margin: 50px 30px 0 0;
     background-color: black;
     border-radius: 30px;
-    padding: 50px 34px 50px 34px;
+    padding: 50px 50px 50px 50px;
+    transition: all 0.3s;
+    scale: 1;
+}
+
+.firstPanel:hover {
+    scale: 1.01;
+    box-shadow: 0 0 20px 3px black;
 }
 
 .secondPanel {
@@ -154,6 +179,13 @@ h1 {
     border-radius: 30px;
     padding: 50px 15px 50px 15px;
     gap: 20px;
+    transition: all 0.3s;
+    scale: 1;
+}
+
+.secondPanel:hover {
+    scale: 1.01;
+    box-shadow: 0 0 20px 3px black;
 }
 
 .iconFP {
@@ -161,16 +193,38 @@ h1 {
     font-size: 30px;
 }
 
+.textPanel {
+    font-size: 18px;
+}
+
 .textPanel1 {
-    color: gray;
+    color: lightgray;
     text-align: center;
+    font-size: 17px;
 }
 
 .textPanel2 {
-    color: gray;
+    color: lightgray;
+    font-size: 17px;
 }
 
 .textPanel3 {
     margin-top: 40px;
     color: cyan;
+    font-size: 19px;
+}
+
+.small-text {
+    font-size: 20px;
+}
+
+.top-indent {
+    margin-top: 450px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
