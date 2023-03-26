@@ -89,7 +89,7 @@ h1 {
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
-    background-image: linear-gradient(to right, orange, rgb(132, 0, 255));
+    background-image: linear-gradient(to right bottom, orange, rgb(132, 0, 255));
     text-decoration: none;
     font-weight: bold;
     font-size: 30px;
@@ -131,7 +131,7 @@ h1 {
 .skillsbg {
     display: flex;
     justify-content: center;
-    margin: 150px 100px 0 100px;
+    margin: 100px 100px 0 100px;
     padding: 50px 0 0px 0;
     border-radius: 25px;
     background-image: linear-gradient(to left, darkviolet,purple, darkviolet);
@@ -219,7 +219,15 @@ h1 {
 }
 
 .top-indent {
-    margin-top: 450px;
+    margin-top: 90px;
+}
+
+.top-indent-text {
+    margin-top: 70px;
+}
+
+.big-top-indent {
+    margin-top: 460px;
 }
 
 .center {
@@ -227,4 +235,16 @@ h1 {
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+hd {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95vw;
+    background-image: linear-gradient(to left, darkviolet,purple, darkviolet);
+    height: 2px;
+    animation: moveGradient 3s ease infinite;
+    background-size: 200% 200%;
 }
