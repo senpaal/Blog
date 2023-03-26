@@ -38,7 +38,7 @@ button:hover {
     box-shadow: 0 0 20px 3px rgb(140, 0, 255);
 }
 
-a:link, a:visited{
+a:link, a:visited {
     text-decoration: none;
     color: white;
     transition: 0.3s;
@@ -46,7 +46,7 @@ a:link, a:visited{
 
 a:hover {
     color: gray;
-    transition: 0.2s;
+    transition: 0.3s;
 }
 
 .animDs {
@@ -93,6 +93,7 @@ h1 {
     text-decoration: none;
     font-weight: bold;
     font-size: 30px;
+    cursor: default;
 }
 
 .panelHome {
@@ -149,6 +150,7 @@ h1 {
     justify-content: center;
     flex-direction: row;
     margin: 0 0 -40vh 0;
+    cursor: default;
 }
 
 .firstPanel {
@@ -162,6 +164,18 @@ h1 {
     padding: 50px 50px 50px 50px;
     transition: all 0.3s;
     scale: 1;
+}
+
+.senpaal a:link, .senpaal a:visited {
+    color: aqua;
+    cursor: default;
+    transition: all 0.3s;
+}
+
+.senpaal a:hover {
+    color: darkcyan;
+    cursor: default;
+    transition: all 0.3s;
 }
 
 .firstPanel:hover {

@@ -75,6 +75,7 @@ a:hover {
     font-weight: bold;
     font-size: 30px;
     margin-left: 300px;
+    cursor: default;
 }
 
 .home {
@@ -113,6 +114,14 @@ a:hover {
     gap: 40px;
     margin-bottom: 60px;
     background: rgb(36,36,36);
+    cursor: default;
+    transition: all 0.4s;
+    scale: 1;
+}
+
+.site:hover {
+    scale: 1.05;
+    box-shadow: 0 0 15px 5px gray;
 }
 
 .site__img,.site__text{
