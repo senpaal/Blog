@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(20,20,20);
+    color: white;
+}
+
+button {
+    margin-top: 50px;
+    color: white;
+    background-color: rgb(20,20,20);
+    border: 1px solid white;
+    font-size: 16px;
+    padding: 15px 200px;
+    border-radius: 10px;
+    scale: 1;
+    transition: all 0.2s;
+}
+
+button:hover {
+    scale: 1.02;
+    transition: all 0.2s;
+    box-shadow: 0 0 20px 3px black;
+}
+
+.button {
+    margin-top: 30px;
+    color: white;
+    background-color: rgb(20,20,20);
+    border: 1px solid white;
+    font-size: 16px;
+    padding: 15px 136px;
+    border-radius: 10px;
+    scale: 1;
+    transition: all 0.2s;
+}
+
+.button:hover {
+    scale: 1.02;
+    transition: all 0.2s;
+    box-shadow: 0 0 20px 3px black;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: cyan;
+    transition: all 0.2s;
+}
+
+a:hover {
+    text-decoration: none;
+    color: darkcyan;
+    transition: all 0.2s;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(30,30,30);
+    border: 1px solid white;
+    cursor: default;
+    padding: 130px 0 150px 0; /* Верх и низ внутри блока*/
+    transition: all 0.3s;
+    scale: 1;
+}
+
+.block:hover {
+    scale: 1.1;
+    transition: all 0.3s;
+    box-shadow: 0 0 20px 3px white;
+}
+
+.idk {
+    padding: 110px 550px 0 550px; /* Со всех сторон */
+}
+
+.nick {
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.phrase {
+    font-size: 18px;
+    color: violet;
+    margin: 10px 0 0 0;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.avatar {
+    border-radius: 50%;
+    scale: 1;
+    transition: all 0.2s;
+}
+
+.avatar:hover {
+    scale: 1.05;
+    transition: all 0.2s;
+    box-shadow: 0 0 10px 3px black;
+}
+
+.img {
+    width: 100px;
+}
+
+
+.defaultColor {
+    color: white;
+}
+
+.text {
+    font-size: 18px;
+    margin: 10px 0 0 0;
+}
+
+.margin-left {
+    margin: 0 0 0 30px;
+}
