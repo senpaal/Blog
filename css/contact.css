@@ -50,16 +50,33 @@ button:hover {
     box-shadow: 0 0 20px 3px black;
 }
 
-a:link, a:visited {
-    text-decoration: none;
-    color: cyan;
+.button2 {
+    margin-top: 30px;
+    color: white;
+    background-color: rgb(20,20,20);
+    border: 1px solid white;
+    font-size: 16px;
+    padding: 15px 200px;
+    border-radius: 10px;
+    scale: 1;
     transition: all 0.2s;
 }
 
-a:hover {
-    text-decoration: none;
-    color: darkcyan;
+.button2:hover {
+    scale: 1.02;
     transition: all 0.2s;
+    box-shadow: 0 0 20px 3px black;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: gray;
+    transition: 0.3s;
 }
 
 .panel {
@@ -73,6 +90,35 @@ a:hover {
     padding: 32px 0 170px 0;
 }
 
+.title {
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(to right bottom, orange, rgb(132, 0, 255));
+    margin: 0 0 0 250px;
+    font-weight: bold;
+    font-size: 30px;
+    cursor: default;
+}
+
+.home {
+    font-size: 20px;
+    margin-left: 620px;
+    font-weight: bold;
+}
+
+.aboutme {
+    font-size: 20px;
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+.works {
+    font-size: 20px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
 .block {
     display: flex;
     justify-content: center;
@@ -81,19 +127,53 @@ a:hover {
     background: rgb(30,30,30);
     border: 1px solid white;
     cursor: default;
-    padding: 130px 0 150px 0; /* Верх и низ внутри блока*/
+    padding: 100px 100px;
     transition: all 0.3s;
     scale: 1;
 }
 
 .block:hover {
-    scale: 1.1;
+    scale: 1.03;
+    transition: all 0.3s;
+    box-shadow: 0 0 20px 3px white;
+}
+
+.block2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(30,30,30);
+    border: 1px solid white;
+    cursor: default;
+    margin: 0 0 0 100px;
+    padding: 100px 100px;
+    transition: all 0.3s;
+    scale: 1;
+}
+
+.block2:hover {
+    scale: 1.03;
     transition: all 0.3s;
     box-shadow: 0 0 20px 3px white;
 }
 
 .idk {
-    padding: 110px 550px 0 550px; /* Со всех сторон */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links a:link, .links a:visited {
+    text-decoration: none;
+    color: cyan;
+    transition: all 0.2s;
+}
+
+.links a:hover {
+    text-decoration: none;
+    color: darkcyan;
+    transition: all 0.2s;
 }
 
 .nick {
@@ -128,6 +208,19 @@ a:hover {
 }
 
 .avatar:hover {
+    scale: 1.05;
+    transition: all 0.2s;
+    box-shadow: 0 0 10px 3px black;
+}
+
+.avatarVK {
+    width: 127.8px;
+    border-radius: 50%;
+    scale: 1;
+    transition: all 0.2s;
+}
+
+.avatarVK:hover {
     scale: 1.05;
     transition: all 0.2s;
     box-shadow: 0 0 10px 3px black;

@@ -29,9 +29,6 @@ a:link, a:visited {
 
 a:hover {
     color: gray;
-    /* -webkit-background-clip: text;
-    background-clip: text;
-    background-image: linear-gradient(to bottom, darkviolet, yellow); */
     transition: 0.3s;
 }
 
@@ -71,7 +68,6 @@ a:hover {
     -webkit-background-clip: text;
     background-clip: text;
     background-image: linear-gradient(to right bottom, orange, rgb(132, 0, 255));
-    text-decoration: none;
     font-weight: bold;
     font-size: 30px;
     margin-left: 300px;
