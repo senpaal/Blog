@@ -53,8 +53,8 @@ a:hover {
     background-clip: text;
     background-image: linear-gradient(to right bottom, orange, rgb(132, 0, 255));
     font-weight: bold;
-    font-size: 30px;
     margin-left: 300px;
+    font-size: 30px;
     cursor: default;
 }
 

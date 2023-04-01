@@ -95,7 +95,7 @@ a:hover {
     -webkit-background-clip: text;
     background-clip: text;
     background-image: linear-gradient(to right bottom, orange, rgb(132, 0, 255));
-    margin: 0 0 0 300px;
+    margin-left: 300px;
     font-weight: bold;
     font-size: 30px;
     cursor: default;
