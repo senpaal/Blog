@@ -57,7 +57,7 @@ hd {
     font-size: 20px;
     border: 1px solid white;
     border-radius: 800px;
-    padding: 1px 8px;
+    padding: 4px 10px;
     transition: background-color 0.5s;
 }
 
