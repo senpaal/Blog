@@ -122,9 +122,9 @@ a:hover {
 .contact:link, .contact:visited {
     margin-left: 10px;
     font-size: 20px;
-    border: 1px solid white;
+    border: 1px solid gray;
     color: rgb(20,20,20);
-    background-color: white;
+    background-color: gray;
     border-radius: 800px;
     padding: 4px 10px;
     transition: background-color 0.5s;
@@ -132,7 +132,7 @@ a:hover {
 
 .contact:hover {
     color: rgb(20,20,20);
-    background-color: white;
+    background-color: gray;
     transition: background-color 0.5s;
 }
 
