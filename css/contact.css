@@ -87,36 +87,53 @@ a:hover {
     width: 100vw;
     height: fit-content;
     column-gap: 1rem;
-    padding: 32px 0 150px 0;
+    box-sizing: border-box;
+    padding: 32px 0 22px 0;
+    margin-bottom: 128px;
 }
 
-.title {
+.titleMe {
+    margin: 0 0 0 300px;
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
     background-image: linear-gradient(to right bottom, orange, rgb(132, 0, 255));
-    margin-left: 300px;
+    text-decoration: none;
     font-weight: bold;
     font-size: 30px;
     cursor: default;
 }
 
-.home {
+.panelHome {
+    margin-left: 700px;
     font-size: 20px;
-    margin-left: 620px;
-    font-weight: bold;
 }
 
-.aboutme {
+.panelAboutme {
+    margin-left: 30px;
     font-size: 20px;
-    margin-left: 25px;
-    font-weight: bold;
 }
 
-.works {
+.panelWorks {
+    margin-left: 30px;
     font-size: 20px;
-    margin-left: 25px;
-    font-weight: bold;
+}
+
+.contact:link, .contact:visited {
+    margin-left: 10px;
+    font-size: 20px;
+    border: 1px solid white;
+    color: rgb(20,20,20);
+    background-color: white;
+    border-radius: 800px;
+    padding: 4px 10px;
+    transition: background-color 0.5s;
+}
+
+.contact:hover {
+    color: rgb(20,20,20);
+    background-color: white;
+    transition: background-color 0.5s;
 }
 
 .block {

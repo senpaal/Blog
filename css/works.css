@@ -10,17 +10,6 @@ body {
     color: white;
 }
 
-.panel {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    width: 100vw;
-    height: fit-content;
-    column-gap: 1rem;
-    padding: 32px 0 170px 0;
-}
-
 a:link, a:visited {
     text-decoration: none;
     color: white;
@@ -32,12 +21,57 @@ a:hover {
     transition: 0.3s;
 }
 
+.panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100vw;
+    height: fit-content;
+    column-gap: 1rem;
+    box-sizing: border-box;
+    padding: 32px 0 22px 0;
+    margin-bottom: 148px;
+}
+
+.titleMe {
+    margin: 0 0 0 300px;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(to right bottom, orange, rgb(132, 0, 255));
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    cursor: default;
+}
+
+.panelHome {
+    margin-left: 700px;
+    font-size: 20px;
+}
+
+.panelAboutme {
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.panelWorks:link, .panelWorks:visited {
+    margin-left: 30px;
+    font-size: 20px;
+    color: gray;
+}
+
+.panelWorks:hover {
+    color: gray;
+}
+
 .contact {
-    margin-left: 5px;
+    margin-left: 10px;
     font-size: 20px;
     border: 1px solid white;
     border-radius: 800px;
-    padding: 4px 9px;
+    padding: 4px 10px;
     transition: background-color 0.5s;
 }
 
@@ -45,29 +79,6 @@ a:hover {
     color: rgb(20,20,20);
     background-color: white;
     transition: background-color 0.5s;
-}
-
-.titleMe {
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    background-image: linear-gradient(to right bottom, orange, rgb(132, 0, 255));
-    font-weight: bold;
-    margin-left: 300px;
-    font-size: 30px;
-    cursor: default;
-}
-
-.home {
-    font-size: 20px;
-    margin-left: 715px;
-    font-weight: bold;
-}
-
-.aboutme {
-    font-size: 20px;
-    margin-left: 25px;
-    font-weight: bold;
 }
 
 .content {
