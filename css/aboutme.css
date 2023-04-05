@@ -120,7 +120,7 @@ a:hover {
     width: 40vh;
 }
 
-.skillsbg {
+.lng-skillsbg {
     display: flex;
     justify-content: center;
     margin: 100px 100px 0 100px;
@@ -157,13 +157,13 @@ a:hover {
     scale: 1;
 }
 
-.senpaal a:link, .senpaal a:visited {
+.lng-senpaal a:link, .lng-senpaal a:visited {
     color: aqua;
     cursor: default;
     transition: all 0.3s;
 }
 
-.senpaal a:hover {
+.lng-senpaal a:hover {
     color: darkcyan;
     cursor: default;
     transition: all 0.3s;
@@ -232,6 +232,13 @@ a:hover {
 }
 
 .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.lng-myworks {
     display: flex;
     justify-content: center;
     align-items: center;

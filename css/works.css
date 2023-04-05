@@ -82,7 +82,7 @@ a:hover {
     transition: background-color 0.5s;
 }
 
-.content {
+.lng-content {
     display: flex;
     flex-direction: column;
     padding: 0 300px;

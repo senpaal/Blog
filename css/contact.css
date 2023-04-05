@@ -242,6 +242,12 @@ a:hover {
     font-weight: bold;
 }
 
+.lng-nick {
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
 .phrase {
     font-size: 18px;
     color: violet;
