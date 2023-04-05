@@ -7,7 +7,7 @@
     <meta name="description" content="Портфолио">
     <meta name="keywords" content="HTML,CSS,JavaScript,Портфолио">
     <meta name="author" content="Никита Абрамовский">
-    <title>CSS directory</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="css/index.css">
     <script src="https://kit.fontawesome.com/3dd0ab1e58.js" crossorigin="anonymous"></script>
 </head>
@@ -18,6 +18,10 @@
         <a class="panelAboutme" href="aboutme.html">About me</a>
         <a class="panelWorks" href="works.html">My works</a>
         <a rel="stylesheet" href="contacts.html" class="contact"> <i class="fa-solid fa-question"></i> </a>
+        <select class="options">
+            <option value="ru" selected>RU</option>
+            <option value="en">EN</option>
+        </select>
     </div>
     <div class="main">
         <h1 class="lng-hello">
@@ -29,26 +33,25 @@
         <hd></hd>
         <h1 class="lng-see">Что тут можно увидеть?</h1>
         <div class="grid">
-            <div class="lng-grid-item-1">Мои учения
-            <p class="lng-info1">Я читал учебник и делал упражнения, чтобы добиться такого</p></div>
-            <div class="lng-grid-item-2">Мои развития
-                <p class="lng-info2">Я обретал всё больше и больше знаний, учась на ошибках</p>
+            <div class="grid-item-1"><span class="lng-grid-1">Мои учения</span>
+                <p class="lng-info-1">Я читал учебник и делал упражнения, чтобы добиться такого</p>
             </div>
-            <div class="lng-grid-item-3">Мои попытки
-                <p class="lng-info3">Не всё было гладко, но я старался и не терял мотивацию</p>
+            <div class="grid-item-2"><span class="lng-grid-2">Мои развития</span>
+                <p class="lng-info-2">Я обретал всё больше и больше знаний, учась на ошибках</p>
             </div>
-            <div class="lng-grid-item-4">Мои успехи
-                <p class="lng-info4">С помощью моих знаний и умений, я смог сделать этот сайт, и это не всё</p>
+            <div class="grid-item-3"><span class="lng-grid-3">Мои попытки</span>
+                <p class="lng-info-3">Не всё было гладко, но я старался и не терял мотивацию</p>
+            </div>
+            <div class="grid-item-4"><span class="lng-grid-4">Мои успехи</span>
+                <p class="lng-info-4">С помощью моих знаний и умений, я смог сделать этот сайт, и это не всё</p>
             </div>
         </div>
         <hd></hd>
         <h1 class="lng-forth">Что ещё?</h1>
         <h2 class="lng-endtext">У меня есть портфолио, в котором ты можешь ознакомиться с моими работами.</h2>
-        <button onclick="window.location.href = 'aboutme.html'" class="buttonPortfolio">Портфолио</button>
-        <select class="options">
-            <option value="ru" selected>RU</option>
-            <option value="en">EN</option>
-        </select>
+        <button onclick="window.location.href = 'aboutme.html'" class="lng-buttonPortfolio">Портфолио</button>
     </div>
+    <script src="js/lng.js"></script>
+    <script src="js/translate.js"></script>
 </body>
 </html>

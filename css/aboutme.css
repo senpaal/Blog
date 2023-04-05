@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+:root {
+    --first-color: rgb(20, 20, 20);
+    --second-color: rgb(140, 0, 255);
+}
 
 body {
     margin: 0;
@@ -37,6 +41,15 @@ a:link, a:visited {
 a:hover {
     color: gray;
     transition: 0.3s;
+}
+
+.options {
+    margin: 0 0 0 250px;
+    background-color: var(--first-color);
+    color: white;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 4px 7px;
 }
 
 .panel2 {
@@ -99,13 +112,34 @@ a:hover {
     transition: background-color 0.5s;
 }
 
-.text {
+.lng-text-info {
     margin: 1px 0;
     text-align: center;
     font-size: 19px;
 }
 
-.title {
+.lng-text-info2 {
+    margin: 1px 0;
+    text-align: center;
+    font-size: 19px;
+}
+
+.link-info {
+    margin: 1px 0;
+    text-align: center;
+    font-size: 19px;
+}
+
+.lng-endText {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    padding: 0;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.lng-name {
     display: flex;
     justify-content: center;
     margin: 20px 0;
@@ -120,7 +154,7 @@ a:hover {
     width: 40vh;
 }
 
-.lng-skillsbg {
+.skillsbg {
     display: flex;
     justify-content: center;
     margin: 100px 100px 0 100px;
@@ -129,7 +163,7 @@ a:hover {
     background-image: linear-gradient(to left, darkviolet,purple, darkviolet);
 }
 
-.skills {
+.lng-skills {
     display: flex;
     justify-content: center;
     font-size: 30px;
@@ -152,26 +186,26 @@ a:hover {
     margin: 50px 30px 0 0;
     background-color: black;
     border-radius: 30px;
-    padding: 50px 50px 50px 50px;
+    padding: 50px 35px;
     transition: all 0.3s;
     scale: 1;
-}
-
-.lng-senpaal a:link, .lng-senpaal a:visited {
-    color: aqua;
-    cursor: default;
-    transition: all 0.3s;
-}
-
-.lng-senpaal a:hover {
-    color: darkcyan;
-    cursor: default;
-    transition: all 0.3s;
 }
 
 .firstPanel:hover {
     scale: 1.01;
     box-shadow: 0 0 20px 3px black;
+}
+
+.senpaal a:link, .senpaal a:visited {
+    color: aqua;
+    cursor: default;
+    transition: all 0.3s;
+}
+
+.senpaal a:hover {
+    color: darkcyan;
+    cursor: default;
+    transition: all 0.3s;
 }
 
 .secondPanel {
@@ -182,7 +216,7 @@ a:hover {
     margin: 50px 0 0 30px;
     background-color: black;
     border-radius: 30px;
-    padding: 50px 15px 50px 15px;
+    padding: 50px 15px;
     gap: 20px;
     transition: all 0.3s;
     scale: 1;
@@ -198,25 +232,46 @@ a:hover {
     font-size: 30px;
 }
 
-.textPanel {
+.lng-backend {
     font-size: 18px;
 }
 
-.textPanel1 {
+.lng-BEtext1 {
+    margin-top: 40px;
+    color: cyan;
+    font-size: 19px;
+}
+
+
+/* */
+
+
+.lng-frontend {
+    font-size: 18px;
+}
+
+.lng-FEtext1 {
     color: lightgray;
     text-align: center;
     font-size: 17px;
 }
 
-.textPanel2 {
-    color: lightgray;
-    font-size: 17px;
-}
-
-.textPanel3 {
+.lng-FEtext2 {
     margin-top: 40px;
     color: cyan;
     font-size: 19px;
+}
+
+.lng-FEtext3 {
+    margin-top: 40px;
+    color: cyan;
+    font-size: 19px;
+}
+
+.textPanel {
+    color: lightgray;
+    text-align: center;
+    font-size: 17px;
 }
 
 .small-text {
@@ -238,7 +293,7 @@ a:hover {
     text-align: center;
 }
 
-.lng-myworks {
+.myworks {
     display: flex;
     justify-content: center;
     align-items: center;

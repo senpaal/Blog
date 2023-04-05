@@ -15,50 +15,59 @@
             <a class="panelAboutme" href="aboutme.html">About me</a>
             <a class="panelWorks" href="works.html">My works</a>
             <a rel="stylesheet" href="contacts.html" class="contact"> <i class="fa-solid fa-question"></i> </a>
+            <select class="options">
+                <option value="ru" selected>RU</option>
+                <option value="en">EN</option>
+            </select>
         </div>
-        <div class="lng-senpaal">
-            <span class="title">Никита</span>
-            <div class="text">Я <a href="https://vk.com/senpaall" target="_blank">senpaal</a>, фронтендер с небольшим опытом, и страстью к кодированию.<br> Если меня 
-                               попросят сделать то, чего я не умею, то я научусь и сделаю это. Я спокойный <br>
-                               и общительный человек, и могу вписаться в любую компанию. У меня маниакальная любовь<br>
-                               к программированию и к его изучению. Итак, если у вас задача где надо подумать, <br>
-                               вы нашли нужного человека!</div>
+        <div class="senpaal">
+            <span class="lng-name">Никита</span>
+            <div class="lng-text-info">
+                Я <a href="https://vk.com/senpaall" target="_blank">senpaal</a>,
+                фронтендер с небольшим опытом, и страстью к кодированию.<br>
+                Если меня попросят сделать то, чего я не умею, то я научусь и сделаю это. Я спокойный <br>
+                и общительный человек, и могу вписаться в любую компанию. У меня маниакальная любовь<br>
+                к программированию и к его изучению. Итак, если у вас задача где надо подумать, <br>
+                вы нашли нужного человека!
+            </div>
             <div class="center">
                 <hd class="top-indent"></hd>
             </div>
         </div>
-        <div class="lng-skillsbg">
+        <div class="skillsbg">
             <div>
-             <span class="skills">Мои возможности</span> 
+             <span class="lng-skills">Мои возможности</span> 
                 <div class="panel">
                     <div class="firstPanel">
-                     <span class="TextPanel">Бэкенд программирование</span>
-                     <span class="textPanel3">*В изучении*</span>
+                     <span class="lng-backend">Бэкенд программирование</span>
+                     <span class="lng-BEtext1">*В изучении*</span>
                     </div>
                     <div class="secondPanel">
                      <i class="fa-solid fa-code iconFP"></i>
-                     <b class="textPanel">Фронтенд программирование</b>
-                     <div class="textPanel1">Я создаю код с нуля и элегантно <br> 
+                     <span class="lng-frontend">Фронтенд программирование</span>
+                     <div class="lng-FEtext1">Я создаю код с нуля и элегантно <br> 
                                               воплощаю идеи в жизнь, уделяя <br> 
                                               максимальное внимание вашему <br> 
                                               видению продукта.</div>
-                     <span class="textPanel3">Используемые языки:</span>
-                     <span class="textPanel1">HTML, JavaScript, CSS</span>
-                     <span class="textPanel3">Мои инструменты:</span>
-                     <span class="textPanel1">VSCode</span>
-                     <span class="textPanel1">GitHub</span>
-                     <span class="textPanel1">Figma</span>
+                     <span class="lng-FEtext2">Используемые языки:</span>
+                     <span class="textPanel">HTML, JavaScript, CSS</span>
+                     <span class="lng-FEtext3">Мои инструменты:</span>
+                     <span class="textPanel">VSCode</span>
+                     <span class="textPanel">GitHub</span>
+                     <span class="textPanel">Figma</span>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="lng-myworks">
+        <div class="myworks">
             <div>
-                <span class="small-text top-indent-text title line">
+                <span class="small-text top-indent-text lng-endText line">
                     С моими работами вы можете ознакомиться, нажав на кнопку ниже!
                 </span>
-                <button onclick="window.location.href = 'works.html'">Мои работы</button>
+                <button onclick="window.location.href = 'works.html'" class="lng-buttonMyworks">Мои работы</button>
             </div>
         </div>
+        <script src="js/lng.js"></script>
+        <script src="js/translate.js"></script>
     </body>
 </html>
