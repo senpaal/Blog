@@ -26,7 +26,16 @@ a:hover {
     transition: 0.3s;
 }
 
-.optionsLangG {
+.optionsLang {
+    margin: 0 0 0 250px;
+    background-color: var(--first-color);
+    color: white;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 4px 7px;
+}
+
+.optionsLangMobile {
     margin: 0 0 0 250px;
     background-color: var(--first-color);
     color: white;
@@ -189,7 +198,7 @@ a:hover {
         background-image: linear-gradient(to right bottom, rgb(140, 0, 255), orange);
     }
 
-    .optionsLangG {
+    .optionsLangMobile {
         margin: 0;
     }
 

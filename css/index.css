@@ -4,6 +4,28 @@
     --second-color: rgb(140, 0, 255);
 }
 
+/* Тёмная тема */
+
+/* body.dark {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: 100%;
+    background-color: var(--first-color);
+    color: white;
+}
+
+body.light {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(215, 215, 255);
+    color: #333333;
+  } */
+
 body {
     margin: 0;
     padding: 0;
@@ -25,13 +47,46 @@ a:hover {
     transition: 0.2s;
 }
 
-.optionsLangG {
+.optionsLang {
     margin: 0 0 0 250px;
     background-color: var(--first-color);
     color: white;
     border: 1px solid gray;
     border-radius: 15px;
     padding: 4px 7px;
+}
+
+.optionsLangMobile {
+    margin: 0 0 0 100px;
+    background-color: var(--first-color);
+    color: white;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 4px 7px;
+}
+
+button.Theme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    color: white !important;
+    border-radius: 0px;
+    border: 0 none transparent;
+    font-size: 20px;
+    width: 2.2rem;
+    height: 2.2rem;
+    padding: 2px 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+button.Theme:hover {
+    scale: 1;
+    box-shadow: 0 0 0 0 transparent;
+    background: gray;
+    border-color: gray;
+    color: var(--first-color) !important;
 }
 
 hd {
@@ -50,11 +105,11 @@ hd {
     height: fit-content;
     column-gap: 1rem;
     box-sizing: border-box;
-    padding: 32px 0 22px 0;
+    padding: 30px 0 30px 0;
 }
 
 .titleMe {
-    margin: 0 0 0 250px;
+    margin: 0 0 0 200px;
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
@@ -96,7 +151,7 @@ hd {
 }
 
 .lng-hello {
-    margin-top: 45px;
+    margin-top: 15px;
     font-size: 30px;
 }
 
@@ -129,16 +184,15 @@ hd {
 }
 
 .grid {
-    /* display: grid;
-    grid-template-columns: 2fr 2fr;
-    grid-template-rows: 2fr 2fr;
-    grid-column-gap: 12px;
-    grid-row-gap: 28px; */
     justify-items: center;
     align-items: center;
     width: fit-content;
     height: fit-content;
     margin-bottom: 3rem;
+}
+
+.grid .col-sm-12.light {
+    color: white !important;
 }
 
 .grid-item-1 {
@@ -294,12 +348,8 @@ button:hover {
         width: 80vw;
     }
 
-    .optionsLangG {
+    .optionsLangMobile {
         margin: 0;
-    }
-
-    button {
-        margin-bottom: 20px;
     }
 
     .lng-hello {
@@ -308,5 +358,9 @@ button:hover {
 
     .linkhome:link, .linkhome:visited {
         color: gray;
+    }
+
+    .lng-buttonPortfolio {
+        margin-bottom: 50px;
     }
 }
