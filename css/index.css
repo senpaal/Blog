@@ -8,10 +8,11 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background-color: var(--first-color);
     color: white;
+    overflow: hidden;
 }
 
 a:link, a:visited{
@@ -25,7 +26,7 @@ a:hover {
     transition: 0.2s;
 }
 
-.options {
+.optionsLangG {
     margin: 0 0 0 250px;
     background-color: var(--first-color);
     color: white;
@@ -54,7 +55,7 @@ hd {
 }
 
 .titleMe {
-    margin: 0 0 0 300px;
+    margin: 0 0 0 250px;
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
@@ -66,18 +67,15 @@ hd {
 }
 
 .panelHome:link, .panelHome:visited {
-    margin-left: 700px;
+    margin-left: 600px;
     font-size: 20px;
-    color: gray;
-}
-
-.panelHome:hover {
     color: gray;
 }
 
 .panelAboutme {
     margin-left: 30px;
     font-size: 20px;
+    color: gray;
 }
 
 .panelWorks {
@@ -85,20 +83,9 @@ hd {
     font-size: 20px;
 }
 
-.contact {
-    margin-left: 10px;
+.panelContacts {
+    margin-left: 30px;
     font-size: 20px;
-    border: 1px solid white;
-    border-radius: 800px;
-    padding: 4px 10px;
-    transition: background-color 0.5s;
-}
-
-.contact:hover {
-    color: rgb(20,20,20);
-    background-color: gray;
-    border-color: gray;
-    transition: background-color 0.5s;
 }
 
 .main {
@@ -107,6 +94,27 @@ hd {
     justify-content: center;
     align-items: center;
     margin-bottom: 3rem;
+}
+
+.lng-hello {
+    margin-top: 45px;
+    font-size: 30px;
+}
+
+.lng-welcome {
+    font-size: 25px;
+}
+
+.lng-see {
+    font-size: 25px;
+}
+
+.lng-forth {
+    font-size: 25px;
+}
+
+.lng-endtext {
+    font-size: 25px;
 }
 
 @keyframes moveGradient {
@@ -280,13 +288,26 @@ button:hover {
         background-image: linear-gradient(to right bottom, orange, rgb(132, 0, 255));
         font-size: 30px;
         padding: 10px;
+        cursor: default;
     }
 
     hd {
         width: 80vw;
     }
 
-    .options {
+    .optionsLangG {
         margin: 0;
+    }
+
+    button {
+        margin-bottom: 20px;
+    }
+
+    .lng-hello {
+        margin-top: 40px;
+    }
+
+    .linkhome:link, .linkhome:visited {
+        color: gray;
     }
 }

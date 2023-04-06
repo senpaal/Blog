@@ -108,7 +108,7 @@ a:hover {
 }
 
 .titleMe {
-    margin: 0 0 0 300px;
+    margin: 0 0 0 250px;
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
@@ -120,13 +120,14 @@ a:hover {
 }
 
 .panelHome {
-    margin-left: 700px;
+    margin-left: 600px;
     font-size: 20px;
 }
 
 .panelAboutme {
     margin-left: 30px;
     font-size: 20px;
+    color: gray;
 }
 
 .panelWorks {
@@ -134,21 +135,10 @@ a:hover {
     font-size: 20px;
 }
 
-.contact:link, .contact:visited {
-    margin-left: 10px;
+.panelContacts:link, .panelContacts:visited {
+    margin-left: 30px;
     font-size: 20px;
-    border: 1px solid gray;
-    color: rgb(20,20,20);
-    background-color: gray;
-    border-radius: 800px;
-    padding: 4px 10px;
-    transition: background-color 0.5s;
-}
-
-.contact:hover {
-    color: rgb(20,20,20);
-    background-color: gray;
-    transition: background-color 0.5s;
+    color: gray;
 }
 
 .block {
