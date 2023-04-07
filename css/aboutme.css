@@ -2,6 +2,7 @@
 :root {
     --first-color: rgb(20, 20, 20);
     --second-color: rgb(140, 0, 255);
+    --third-color: rgb(15, 15, 15);
 }
 
 body {
@@ -406,5 +407,9 @@ hd {
 
     .linkabout:link, .linkabout:visited {
         color: gray;
+    }
+
+    .navbar-nav ul {
+        list-style: none;
     }
 }

@@ -2,6 +2,7 @@
 :root {
     --first-color: rgb(20, 20, 20);
     --second-color: rgb(140, 0, 255);
+    --third-color: rgb(15, 15, 15);
 }
 
 /* Тёмная тема */
@@ -358,5 +359,9 @@ button:hover {
 
     .linkhome:link, .linkhome:visited {
         color: gray;
+    }
+
+    .navbar-nav ul {
+        list-style: none;
     }
 }

@@ -238,4 +238,8 @@ a:hover {
     .site {
         margin-top: -20px;
     }
+
+    .navbar-nav ul {
+        list-style: none;
+    }
 }
