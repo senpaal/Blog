@@ -41,7 +41,7 @@ function changeURLLanguageM() {
 }
 
 function changeLanguageM() {
-    let hashM = window.location.hashM;
+    let hashM = window.location.hash;
     hashM = hashM.substr(1);
     console.log(hashM);
     if (!allLang.includes(hashM)) {

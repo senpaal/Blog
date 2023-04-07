@@ -147,7 +147,7 @@ hd {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 3rem;
+    margin-bottom: 50px;
 }
 
 .lng-hello {
@@ -358,9 +358,5 @@ button:hover {
 
     .linkhome:link, .linkhome:visited {
         color: gray;
-    }
-
-    .lng-buttonPortfolio {
-        margin-bottom: 50px;
     }
 }
