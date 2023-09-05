@@ -104,7 +104,13 @@ a:hover {
     column-gap: 1rem;
     box-sizing: border-box;
     padding: 30px 0 30px 0;
-    margin-bottom: 128px;
+    top: 0;
+    height: 7vh;
+    width: 100%;
+    position: fixed;
+    background-color: rgba(20, 20, 20, 0.6);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
 }
 
 .titleMe {
@@ -216,6 +222,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: 200px;
 }
 
 .links a:link, .links a:visited {

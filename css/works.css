@@ -27,7 +27,7 @@ a:hover {
 }
 
 .optionsLang {
-    margin: 0 0 0 250px;
+    margin: 0 0 0 50px;
     background-color: var(--first-color);
     color: white;
     border: 1px solid gray;
@@ -53,7 +53,13 @@ a:hover {
     column-gap: 1rem;
     box-sizing: border-box;
     padding: 30px 0 30px 0;
-    margin-bottom: 148px;
+    top: 0;
+    height: 7vh;
+    width: 100%;
+    position: fixed;
+    background-color: rgba(20, 20, 20, 0.6);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
 }
 
 .titleMe {
@@ -69,7 +75,7 @@ a:hover {
 }
 
 .panelHome {
-    margin-left: 600px;
+    margin-left: 500px;
     font-size: 20px;
 }
 
@@ -94,6 +100,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     padding: 0 300px;
+    margin-top: 220px;
 }
 
 .lng-textMyworks {
@@ -138,14 +145,14 @@ a:hover {
 }
 
 .site__text .lng-site__headline {
-    margin-top: 70px;
+    margin-top: 50px;
     font-size: 40px;
     font-weight: bold;
 }
 
 .site__text p {
     color: lightgray;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .site__text a:link,  .site__text a:visited {
@@ -232,7 +239,7 @@ a:hover {
     }
 
     .lng-linksite {
-        margin: -30px 0 10px 0;
+        margin: -10px 0 10px 0;
     }
     
     .site {

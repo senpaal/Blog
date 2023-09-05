@@ -45,7 +45,7 @@ a:hover {
 }
 
 .optionsLang {
-    margin: 0 0 0 250px;
+    margin: 0 0 0 50px;
     background-color: var(--first-color);
     color: white;
     border: 1px solid gray;
@@ -71,7 +71,13 @@ a:hover {
     column-gap: 1rem;
     box-sizing: border-box;
     padding: 30px 0 30px 0;
-    margin-bottom: 158px;
+    top: 0;
+    height: 7vh;
+    width: 100%;
+    position: fixed;
+    background-color: rgba(20, 20, 20, 0.6);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
 }
 
 .titleMe {
@@ -87,7 +93,7 @@ a:hover {
 }
 
 .panelHome {
-    margin-left: 600px;
+    margin-left: 500px;
     font-size: 20px;
 }
 
@@ -132,7 +138,7 @@ a:hover {
 .lng-endText {
     display: flex;
     justify-content: center;
-    margin: 20px 0;
+    margin: 0 0 30px 0;
     padding: 0;
     font-size: 40px;
     font-weight: bold;
@@ -141,7 +147,7 @@ a:hover {
 .lng-name {
     display: flex;
     justify-content: center;
-    margin: 20px 0;
+    margin: 200px 0 20px 0;
     padding: 0;
     font-size: 40px;
     font-weight: bold;

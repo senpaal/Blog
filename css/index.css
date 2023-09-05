@@ -49,7 +49,7 @@ a:hover {
 }
 
 .optionsLang {
-    margin: 0 0 0 250px;
+    margin: 0 0 0 50px;
     background-color: var(--first-color);
     color: white;
     border: 1px solid gray;
@@ -107,6 +107,13 @@ hd {
     column-gap: 1rem;
     box-sizing: border-box;
     padding: 30px 0 30px 0;
+    top: 0;
+    height: 7vh;
+    width: 100%;
+    position: fixed;
+    background-color: rgba(20, 20, 20, 0.6);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
 }
 
 .titleMe {
@@ -122,7 +129,7 @@ hd {
 }
 
 .panelHome:link, .panelHome:visited {
-    margin-left: 600px;
+    margin-left: 500px;
     font-size: 20px;
     color: gray;
 }
@@ -149,10 +156,10 @@ hd {
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
+    margin-top: 100px;
 }
 
 .lng-hello {
-    margin-top: 15px;
     font-size: 30px;
 }
 
@@ -185,8 +192,10 @@ hd {
 }
 
 .grid {
+    display: flex;
     justify-items: center;
     align-items: center;
+    flex-direction: column;
     width: fit-content;
     height: fit-content;
     margin-bottom: 3rem;
@@ -318,6 +327,8 @@ button:hover {
     display: none;
 }
 
+
+
 @media (min-width: 768px) {
     
     .col-sm-12 {
@@ -327,6 +338,10 @@ button:hover {
 
 @media (max-width: 767px) {
     
+    .grid {
+        display: block;
+    }
+
     .panel {
         display: none;
     }
