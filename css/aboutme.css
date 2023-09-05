@@ -78,6 +78,7 @@ a:hover {
     background-color: rgba(20, 20, 20, 0.6);
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
+    z-index: 10;
 }
 
 .titleMe {
