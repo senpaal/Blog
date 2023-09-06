@@ -111,9 +111,17 @@ const langArr = {
         "ru" : "Блог",
         "en" : "Blog",
     },
+    "site__headlineLogin" : {
+        "ru" : "Аутентификация",
+        "en" : "Authentication",
+    },
     "infoBlog" : {
         "ru" : "Веб-сайт блог на ПК. Прост в использовании, присутствуют настройки фона. Есть ссылки на книги для языков программирования.",
         "en" : "Website blog on PC. Easy to use, there are background settings. There are links to books for programming languages.",
+    },
+    "infoLogin": {
+        "ru" : "Веб-сайт аутентификации на ПК. Сайт где ты можешь зарегестрировать свой аккаунт и войти в него. Красивый дизайн и прост в использовании.",
+        "en" : "A PC authentication website. A website where you can register your account and log in to it. Beautiful design and easy to use.",
     },
     "linksite" : {
         "ru" : "Посетить сайт",
