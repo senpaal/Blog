@@ -61,21 +61,21 @@ a:hover {
     background-image: linear-gradient(to right bottom, orange, rgb(132, 0, 255));
 }
 
-.panelHome:link, .panelHome:visited {
+/* .panelHome:link, .panelHome:visited {
     margin-left: 500px;
     font-size: 18px;
     color: gray;
-}
+} */
 
 .panelAboutme {
     margin-left: 600px;
     font-size: 18px;
-    color: gray;
 }
 
-.panelWorks {
+.panelWorks:link, .panelWorks:visited {
     margin-left: 20px;
     font-size: 18px;
+    color: gray;
 }
 
 .panelContacts {

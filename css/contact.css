@@ -133,13 +133,11 @@ a:hover {
 .panelHome:link, .panelHome:visited {
     margin-left: 500px;
     font-size: 18px;
-    color: gray;
 }
 
 .panelAboutme {
     margin-left: 600px;
     font-size: 18px;
-    color: gray;
 }
 
 .panelWorks {
