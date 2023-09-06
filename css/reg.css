@@ -11,9 +11,12 @@
                                 rgb(140, 0, 240, 0.8),
                                 rgb(160, 0, 240, 0.8),
                                 rgb(140, 0, 240, 0.8));
+    --third-color: rgb(20, 20, 20);
+    --fourth-color: rgb(140, 0, 255);
+    --fifth-color: rgb(15, 15, 15);
 }
 
-.box {
+.qwerty {
     --mask:
       radial-gradient(
                 65.11px at 50% calc(100% + 56.00px),
@@ -49,7 +52,107 @@ body {
     height: 100vh;
 }
 
+a:link, a:visited{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: gray;
+    transition: 0.2s;
+}
+
 .panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: fit-content;
+    column-gap: 1rem;
+    box-sizing: border-box;
+    padding: 30px 0 30px 0;
+    top: 0;
+    height: 7vh;
+    width: 100%;
+    position: fixed;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    z-index: 10;
+}
+
+.titleMe:link, .titleMe:visited {
+    margin-left: 300px;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(to right bottom, orange, rgb(132, 0, 255));
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.titleMe:hover {
+    color: transparent;
+    background-image: linear-gradient(to right bottom, orange, rgb(132, 0, 255));
+}
+
+.panelHome:link, .panelHome:visited {
+    margin-left: 500px;
+    font-size: 18px;
+    color: gray;
+}
+
+.panelAboutme {
+    margin-left: 600px;
+    font-size: 18px;
+    color: gray;
+}
+
+.panelWorks {
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.panelContacts {
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.panelLogin {
+    margin-left: 200px;
+    font-size: 18px;
+    padding: 5px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.panelLogin:hover {
+    color: var(--first-color);
+    background-color: white;
+    transition: all 0.5s;
+}
+
+.optionsLang {
+    margin-left: 20px;
+    background-color: var(--third-color);
+    color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 4px 7px;
+}
+
+.optionsLangMobile {
+    margin: 0 0 0 100px;
+    background-color: var(--third-color);
+    color: white;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 4px 7px;
+}
+
+.box {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -61,29 +164,29 @@ body {
     scale: 1;
 }
 
-.panel1 {
+.box1 {
     background-image: var(--first-color);
     padding: 30px;
     width: 400px;
     height: 480px;
 }
 
-.panel1:hover {
+.box1:hover {
     margin-right: 60px;
 }
 
-.panel2 {
+.box2 {
     background-image: var(--second-color);
     padding: 30px;
     width: 400px;
     height: 480px;
 }
 
-.panel2:hover {
+.box2:hover {
     margin-left: 60px;
 }
 
-.panel:hover {
+.box:hover {
     scale: 1.05;
     box-shadow: 0 0 100px 20px rgb(210, 50, 210, 0.5)
 }
@@ -114,8 +217,7 @@ body {
 }
 
 .iconHouse {
-    content: "";
-    /* margin-bottom: 1px; */
+    margin-bottom: 5px;
 }
 
 .iconKey {
@@ -144,6 +246,7 @@ body {
 
 .username {
     font-size: 30px;
+    margin-bottom: 5px;
     background-color: rgb(255, 255, 255, 0);
     color: white;
     outline: none;
@@ -174,6 +277,7 @@ button {
     padding: 10px;
     transition: all 0.4s;
     scale: 1;
+    font-family: "Montserrat", sans-serif;
 }
 
 button:hover {

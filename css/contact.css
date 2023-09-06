@@ -114,8 +114,8 @@ a:hover {
     z-index: 10;
 }
 
-.titleMe {
-    margin: 0 0 0 200px;
+.titleMe:link, .titleMe:visited {
+    margin-left: 300px;
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
@@ -123,29 +123,67 @@ a:hover {
     text-decoration: none;
     font-weight: bold;
     font-size: 30px;
-    cursor: default;
 }
 
-.panelHome {
-    margin-left: 600px;
-    font-size: 20px;
+.titleMe:hover {
+    color: transparent;
+    background-image: linear-gradient(to right bottom, orange, rgb(132, 0, 255));
+}
+
+.panelHome:link, .panelHome:visited {
+    margin-left: 500px;
+    font-size: 18px;
+    color: gray;
 }
 
 .panelAboutme {
-    margin-left: 30px;
-    font-size: 20px;
+    margin-left: 600px;
+    font-size: 18px;
     color: gray;
 }
 
 .panelWorks {
-    margin-left: 30px;
-    font-size: 20px;
+    margin-left: 20px;
+    font-size: 18px;
 }
 
 .panelContacts:link, .panelContacts:visited {
-    margin-left: 30px;
-    font-size: 20px;
+    margin-left: 20px;
+    font-size: 18px;
     color: gray;
+}
+
+.panelLogin {
+    margin-left: 200px;
+    font-size: 18px;
+    padding: 5px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.panelLogin:hover {
+    color: var(--first-color);
+    background-color: white;
+    transition: all 0.5s;
+}
+
+.optionsLang {
+    margin-left: 20px;
+    background-color: var(--first-color);
+    color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 4px 7px;
+}
+
+.optionsLangMobile {
+    margin: 0 0 0 100px;
+    background-color: var(--first-color);
+    color: white;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 4px 7px;
 }
 
 .block {
