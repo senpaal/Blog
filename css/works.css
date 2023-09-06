@@ -166,13 +166,19 @@ a:hover {
 
 .site__text .lng-site__headline {
     margin-top: 50px;
-    font-size: 40px;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.lng-site__headlineLogin {
+    margin-top: 50px;
+    font-size: 45px;
     font-weight: bold;
 }
 
 .site__text p {
     color: lightgray;
-    margin-bottom: 40px;
+    font-size: 16px;
 }
 
 .site__text a:link,  .site__text a:visited {
@@ -183,6 +189,10 @@ a:hover {
 .site__text a:hover {
     color: white;
     transition: 0.3s;
+}
+
+.info {
+    margin: 30px 0 60px 0;
 }
 
 
