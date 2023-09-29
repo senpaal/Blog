@@ -63,6 +63,10 @@ a:hover {
     transition: 0.2s;
 }
 
+.svg1 {
+    position: absolute;
+}
+
 .panel {
     display: flex;
     flex-direction: row;
@@ -122,14 +126,14 @@ a:hover {
 .panelLogin {
     margin-left: 200px;
     font-size: 18px;
-    padding: 5px;
+    padding: 7.5px 5px;
     color: white;
     border: 1px solid white;
     border-radius: 10px;
 }
 
 .panelLogin:hover {
-    color: var(--first-color);
+    color: var(--third-color);
     background-color: white;
     transition: all 0.5s;
 }
@@ -214,6 +218,7 @@ a:hover {
 
 .icon {
     font-size: 20px;
+    margin-right: 5px;
 }
 
 .iconHouse {
@@ -244,6 +249,11 @@ a:hover {
     border-bottom: white solid 1px;
 }
 
+.dop-elem {
+    font-size: 30px;
+    margin: 0 4px 10px 5px;
+}
+
 .username {
     font-size: 30px;
     margin-bottom: 5px;
@@ -266,6 +276,15 @@ a:hover {
     display: flex;
     justify-content: end;
     margin-top: 30px;
+    padding: 0;
+}
+
+.bt1 {
+    margin: 110px 10px 0 0;
+}
+
+.bt2 {
+    margin: 60px 10px 0 0;
 }
 
 button {
