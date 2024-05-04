@@ -323,10 +323,13 @@ a:hover {
 }
 
 .avatarVK {
-    width: 133px;
     border-radius: 50%;
     scale: 1;
     transition: all 0.2s;
+    width: 133px;
+    /* border-radius: 50%;
+    scale: 1;
+    transition: all 0.2s; */
 }
 
 .avatarVK:hover {
